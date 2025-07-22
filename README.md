@@ -38,5 +38,6 @@ O7;NEqn3WIWx MYbf4Sax@X4q x6:JRalzB1Az
 ```
 
 Possible improvements:
+- there's logic to add an exact number of special characters and digits, maybe it would be nice to do the same for capitals as well. I'm not sure
 - gimmepw allows a LOT of special characters, the full list being ```~!@#$%^&*()-_=+{}[];:```. Some websites might not support all of these so it would be nice to exclude certain characters from passwords using another command line argument. It's possible I could remove the less common ones to improve the default behavior as well, and maybe add a feature to "add back" the characters you want available. Ideally the default behavior should make a valid password on as many websites as possible
 - the best password generators are, in my opinion, pass phrases (at least if you intend on memorizing your passwords). Implementing this would be a little more complicated since you would need to include a dictionary. Maybe this would be a fun next step
